@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Todoform from "./components/Todoform";
 import Showlist from "./components/Showlist";
+import { Tooltip } from "react-tooltip";
 
 function App() {
   const [Todolist, setTodolist] = useState(() => {
@@ -49,6 +50,7 @@ function App() {
 
   return (
     <>
+      <Tooltip id="my-tooltip" />
       <Todoform addTodo={addTodo} />
       <Showlist
         todos={Todolist}
