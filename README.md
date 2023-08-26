@@ -1,14 +1,11 @@
-# 📰 NewsWave: React.js News App
+# React Todo App 
+A simple Todo app built using React.js and Tailwind CSS that allows you to add and manage tasks. Tasks are stored in local storage, ensuring data persistence even after refreshing the page.
 
-NewsWave is a responsive news application built using React.js and Tailwind CSS. It leverages the NewsNow API to provide real-time news articles from various countries around the world.
+## Features
+- Add new tasks to your Todo list.
+- Mark tasks as completed or uncompleted.
+- Delete tasks individually.
+- Task data is stored in local storage for data persistence.
 
-## ✔️ Features
-
-- Browse the latest news articles from different countries.
-- Filter news articles by category for a personalized reading experience.
-- Responsive design that works seamlessly on various devices.
-- Clean and intuitive user interface for easy navigation.
-
-## 🚀 Demo
-
-Check out the live demo of the NewsWave app 👉🏽: https://newswave-free.vercel.app
+## Demo
+Check out the live demo of the Todo app 👉🏽https://self-todo.vercel.app.
