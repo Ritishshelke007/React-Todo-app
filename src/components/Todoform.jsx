@@ -4,7 +4,7 @@ import { useState } from "react";
 const Todoform = ({addTodo}) => {
   const [todotext, setTodotext] = useState("");
   const [selectOption, setSelectOption] = useState("College");
-  const [addDate, setAddDate] = useState(new Date().toLocaleTimeString());
+  const [addDate, setAddDate] = useState(new Date().toLocaleString([],{hour: '2-digit',minute:'2-digit',hour12:true}));
 
      function selectChange(e) {
        setSelectOption(e.target.value);
