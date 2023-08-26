@@ -11,8 +11,7 @@ const Todoform = ({addTodo}) => {
      }
 
   function handleSubmit(e) {
-    setAddDate(new Date().toLocaleTimeString());
-    console.log(addDate);
+    setAddDate(new Date().toLocaleString([],{hour: '2-digit',minute:'2-digit',hour12:true}));
      
      e.preventDefault();
      if (todotext==="")  return
